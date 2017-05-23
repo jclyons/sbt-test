@@ -1,0 +1,59 @@
+exit
+~compile
+;clean;compile;
+;clean;compile
+alias c=compile
+c
+help <
+< commands
+print("test")
+< commands
+eval "hello"
+eval print("hello")
+eval println("hello")
+eval println("hello world")
+clean
+eval println("hello world")
+compile
+< commands
+help <
+< commands
+exit
+run
+console
+exit
+compile
+inspect sampleTask
+sampleTask
+reload
+sampleTask
+reload
+sampleTask
+reload
+sampleTask
+sampleSequence
+anotherSampleTask
+reload
+anotherSampleTask
+reload
+thirdSampleTask
+reload
+thirdSampleTask
+inspect thirdSampleTask
+inspect anotherSampleTask
+inspect tree:thirdSampleTask
+inspect tree thirdSampleTask
+reload
+inspect tree thirdSampleTask
+inspect thirdSampleTask
+thirdSampleTask
+inspect compile
+inspect compile:manipulateByteCode
+inspect compile:manipulateBytecode
+inspect compile:compileIncremental
+inspect test:fullClasspath
+inspect testOnly
+reload
+inspect testOnly
+thirdSampleTask first second
+exit
